@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dash"
+            android:icon="@drawable/ic_view_dashboard"
+            android:title="Painel" />
+        <item
+            android:id="@+id/nav_rooms"
+            android:icon="@drawable/ic_map_marker_outline"
+            android:title="Espaços" />
+        <item
+            android:id="@+id/nav_clients"
+            android:icon="@drawable/ic_account"
+            android:title="Clientes" />
+        <item
+            android:id="@+id/nav_payments"
+            android:icon="@drawable/ic_credit_card"
+            android:title="Pagamentos" />
+        <item
+            android:id="@+id/nav_alerts"
+            android:icon="@drawable/ic_message_alert"
+            android:title="Avisos" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_heart_outline"
+            android:title="Favoritos" />
+    </group>
+
+</menu>
